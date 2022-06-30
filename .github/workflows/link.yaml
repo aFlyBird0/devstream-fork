@@ -16,6 +16,14 @@ jobs:
       - name: Download Exclude Path
         run: |
           curl https://raw.githubusercontent.com/aFlyBird0/devstream-fork/main/.lycheeignore --output .lycheeignore
+
+      - name: Build MkDocs
+        uses: Tiryoh/actions-mkdocs@v0
+        with:
+            mkdocs_version: 'latest'
+            requirements: 'docs/requirements.txt'
+            configfile: 'mkdocs.yml'
+
       - name: Check Links
         uses: lycheeverse/lychee-action@v1.5.0
         with:
