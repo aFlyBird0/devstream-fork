@@ -53,3 +53,6 @@ testbin/
 
 # md
 README_when_create_plugin.md
+
+# mkdocs build
+site/
