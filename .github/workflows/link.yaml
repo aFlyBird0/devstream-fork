@@ -34,7 +34,8 @@ jobs:
           # -n, --no-progress            Do not show progress bar.
           # -t, --timeout <timeout>      Website timeout in seconds from connect to response finished [default:20]
           # --max-concurrency <max-concurrency>    Maximum number of concurrent network requests [default: 128]
-          args: -E --exclude-mail -v -i -n -t 45 --max-concurrency 32 -- ./site
+          # --accept <accept>                      Comma-separated list of accepted status codes for valid links
+          args: -E --exclude-mail -v -i -n -t 45 --max-concurrency 32 --accept 429 -- ./site
           output: out.md
         env:
           GITHUB_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
