@@ -1,2 +1,4 @@
 https://github.com/.*/pull/[0-9]+.*
 https://github.com/.*/issues/[0-9]+.*
+https://fonts.gstatic.com/
+https://docs.devstream.io/.*.zh/?
