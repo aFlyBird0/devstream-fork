@@ -16,7 +16,7 @@ For Chinese readers, watch this one instead:
 
 ## Plugins needed
 
-1. [github-repo-scaffolding-golang](../plugins/github-repo-scaffolding-golang.md)
+1. [github-repo-scaffolding-golang](../plugins/github-repo-scaffolding-golang2.md)
 2. [jira-github](../plugins/jira-github-integ.md)
 3. [githubactions-golang](../plugins/githubactions-golang.md)
 4. [argocd](../plugins/argocd.md)
