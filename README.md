@@ -12,8 +12,8 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6202/badge)](https://bestpractices.coreinfrastructure.org/projects/6202)
 [![Slack](https://img.shields.io/badge/slack-join_chat-success.svg?logo=slack)](https://cloud-native.slack.com/archives/C03LA2B8K0A)
 
-| English | [中文](docs/README_zh.md) |
-| --- | --- |
+| English | [中文](docs/README_zh-make-error-on-purpose.md) |
+| --- |-----------------------------------------------|
 
 </div>
 
