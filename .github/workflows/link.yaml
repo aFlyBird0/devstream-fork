@@ -20,7 +20,7 @@ jobs:
       # replace site base url to build MkDocs in local
       - name: Replace Base URL
         run: |
-          sed -i 's|https://docs.devstream.io|http://localhost|g' .mkdocs.yml
+          sed -i 's|https://docs.devstream.io|http://localhost|g' mkdocs.yml
 
       - name: Build MkDocs
         uses: Tiryoh/actions-mkdocs@v0
