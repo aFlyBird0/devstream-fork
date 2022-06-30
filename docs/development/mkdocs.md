@@ -77,7 +77,7 @@ Run:
 ```sh
 # at the root of the repo
 pip3 install -r docs/requirements.txt
-mkdocs serve
+mkdocs.yaml serve
 ```
 
 Review your changes before submitting a PR.

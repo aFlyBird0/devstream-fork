@@ -104,7 +104,7 @@ nav:
     - development/project-layout*.md
     - development/build*.md
     - development/test*.md
-    - development/mkdocs*.md
+    - development/mkdocs.yaml*.md
     - development/creating-a-plugin*.md
     - development/commands/develop*.md
     - development/reviewing*.md

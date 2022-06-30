@@ -75,7 +75,7 @@ nav:
 ```sh
 # 在repo的根目录下
 pip3 install -r docs/requirements.txt
-mkdocs serve
+mkdocs.yaml serve
 ```
 
 请在提交PR之前在本地确认您的更改。
