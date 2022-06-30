@@ -1,0 +1,55 @@
+# Mac OS X files
+.DS_Store
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# build
+dtm
+dtm-darwin*
+dtm-linux*
+smoke
+build/output
+build/working_dir
+docs/build
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+# YAML for testings
+config*.yaml*
+app*.yaml
+variables*.yaml
+variables*.yaml.bak
+tools*.yaml
+tools*.yaml.bak
+e2e-test-local.yaml
+
+# IDE
+.idea/
+.vscode/
+
+# .devstream
+.devstream/
+devstream.state
+
+# e2e
+testbin/
+
+# plugins
+.github-*
+
+# terraform
+.terraform
+
+# md
+README_when_create_plugin.md
