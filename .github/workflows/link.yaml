@@ -33,7 +33,7 @@ jobs:
           # -i, --insecure               Proceed for server connections considered insecure (invalid TLS)
           # -n, --no-progress            Do not show progress bar.
           # -t, --timeout <timeout>      Website timeout in seconds from connect to response finished [default:20]
-          args: -E --exclude-mail -v -i -n -t 45 -- **/*.md
+          args: -E --exclude-mail -v -i -n -t 45 -- ./site
           output: out.md
         env:
           GITHUB_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
