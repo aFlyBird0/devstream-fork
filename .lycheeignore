@@ -1,5 +1,6 @@
 https://github.com/.*/pull/[0-9]+.*
 https://github.com/.*/issues/[0-9]+.*
+.*mkdocs\.yaml\*\.md
 https://fonts.gstatic.com/
 .*foo.*
 .*bar.*
