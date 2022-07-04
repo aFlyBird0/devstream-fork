@@ -1,5 +1,5 @@
 # Contributing
-test
+test2
 Welcome to DevStream!
 
 Thanks for contributing, and thanks for reading this doc before doing it!
