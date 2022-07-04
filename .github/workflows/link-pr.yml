@@ -21,7 +21,7 @@ jobs:
         run: |
           sed -i 's|https://docs.devstream.io|http://localhost|g' mkdocs.yml
 
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python
         uses: actions/setup-python@v4
 
       - name: Install dependencies
