@@ -45,4 +45,4 @@ jobs:
             # ./*.md all markdown files in the root directory
           args: -E -i -n -t 45 --max-concurrency 32 -a 429,401 -- ./site;*.md
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.MY_GITHUB_TOKEN}}
